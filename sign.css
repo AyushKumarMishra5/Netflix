@@ -1,0 +1,105 @@
+body{
+    background: rgb(0, 0, 0, 0.5) url(main.jpg);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main{
+    color: red;
+    font-weight: bolder;
+    font-size: 36px;
+    display: flex;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.box2{
+    width: 400px;
+    height: 600px;
+    border: 2px solid white;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    transform: translate(-50% -50%);
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.8);
+
+}
+.box2 h1{
+    color: white;
+    font-weight: bold;
+}
+
+.box2 input{
+    width: 260px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 22px;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+}
+.box2 input:hover{
+    border-color: gold;
+}
+.cli{
+    position: absolute;
+    left: 39.6%;
+    top: 48%;
+    transform: translate(-50% -50%);
+}
+.cli input{
+    width: 265px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.help{
+    position: absolute;
+    top: 57%;
+    left: 39.6%;
+}
+.help input{
+    background-color: gray;
+    color: black;
+}
+.help label{
+    color: gray;
+    margin-right: 60px;
+}
+.help a{
+    text-decoration: none;
+    color: gray;
+}
+.par{
+    display: flex;
+    position: absolute;
+    left: 40%;
+    top: 67%;
+    transform: translate(-50% -50%);
+}
+.par h2{
+    font-size: 17px;
+    color: gray;
+}
+.par a{
+    font-size: 17px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.par2{
+    position: absolute;
+    left: 40%;
+    top: 73%;
+    transform: translate(-50% -50%);
+}
+.par2 p{
+    color: gray;
+}

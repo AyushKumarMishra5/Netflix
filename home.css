@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6) url(main.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.netflix{
+    color: red;
+    font-weight: bolder;
+    font-size: 36px;
+    display: flex;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.main{
+    color: white;
+    font-weight: bolder;
+    font-size: 28px;
+    position: absolute;
+    left: 17%;
+    top: 40%;
+    transform: translate(-50% -50%);
+}
+.pa{
+    color: white;
+    position: absolute;
+    left: 26%;
+    top: 54%;
+    transform: translate(-50% -50%);
+}
+.box{
+    opacity: 0.3;
+}
+.box1 input{
+    width: 380px;
+    height: 60px;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+    position: absolute;
+    left: 28.4%;
+    top: 64%;
+    transform: translate(-50% -50%);
+    border-radius: 10px;
+    font-size: 25px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.red input{
+    width: 270px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 54%;
+    top: 64%;
+    transform: translate(-50% -50%);
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.red input:hover{
+    background-color: darkred;
+}
+.lan select{
+    width: 130px;
+    height: 35px;
+    background-color: black;
+    z-index: 0.6;
+    color: white;
+    font-size: 15px;
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sign input{
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 28px;
+    transform: translate(-50% -50%);
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 17px;
+
+}
+.sign input:hover{
+    background-color: darkred;
+}

@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(0,0,0,9);
+    width: 100%;
+    height: 4000px;
+    padding: 0%;
+    margin: 0%;
+}
+.net{
+    color: red;
+    font-weight: bolder;
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 60px;
+    top: 1px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    height: 50px;
+    position: absolute;
+    left: 22%;
+    margin-top: 35px;
+}
+.nav a{
+    margin-top: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: lightgray;
+}
+.nav a:hover{
+    color: lightyellow;
+}
+.sidenav{
+    border: 2px solid white;
+    position: absolute;
+    right: 3%;
+    top: 6%;
+    transform: translate(-50% -50%);
+
+}
+.sidenav img{
+    position: absolute;
+    
+}
+.bigmage{
+    display: flex;
+}
+.watch1{
+    margin-left: 70px;
+}
+.watch1 h1{
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+.img1{
+    margin: 6px;
+    margin-left: 60px;
+}
+.img1 img{
+    cursor: pointer;
+    margin-left: 10px;
+    width: 220px;
+    height: 160px;
+    border-radius: 8px;
+    box-shadow: 1px 1px whitesmoke;
+}
+.img1 img:hover{
+    width: 260px;
+    height: 210px;
+    box-shadow: 2px 2px whitesmoke;
+}
+.media{
+    display: flex;
+    margin-left: 240px;
+}
+.media img{
+    width: 30px;
+    height: 20px;
+    margin: 10px;
+    filter: invert(100%);
+}
+.btn{
+    display: flex;
+    margin-left: 240px;
+}
+.btn input{
+    width: 100px;
+    height: 30px;
+    color: lightslategray;
+    border-color: whitesmoke;
+    background-color: rgb(0,0,0,0);
+}
+.btn input:hover{
+    color: white;
+}
+.end{
+    display: flex;
+    margin-left: 200px;
+}
+.end a{
+    margin: 10px;
+    text-decoration: none;
+    color: lightgray;
+}
+.end a:hover{
+    border: 2px solid white;
+    border-radius: 2px;
+}
